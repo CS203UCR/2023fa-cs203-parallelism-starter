@@ -51,7 +51,7 @@ def compute_all_scores(dir=None):
     # scores = compute_scores(bench, "ET",[(3.19,2.2),
     #                                      (7.52,3.5),
     #                                      (2.9,18.5)])
-    scores = compute_scores(bench, "ET",[(29.7,45)])
+    scores = compute_scores(bench, "ET",[(20,4)])
     
     scores['score'] = round(scores['bench_score']/len(scores),2)
     scores['capped_score'] = list(map(lambda x: min(100.0/len(scores), x), scores['score']))
