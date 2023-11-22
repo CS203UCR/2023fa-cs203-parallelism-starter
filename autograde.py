@@ -64,7 +64,7 @@ def compute_all_scores(dir=None):
 @click.option("--results", required=True, type = click.File(mode="w"), help="Where to put results")
 def autograde(submission=None, results=None):
     try:
-        failures = 6 - compute_correctness(dir=submission)
+        failures = 4 - compute_correctness(dir=submission)
         output = "tests passed" if failures == 0 else "Your code is incorrect"
     except FileNotFoundError as e:
         output = f"I couldn't find your regression outputs.  This often means your program generated a segfault :{e}."
