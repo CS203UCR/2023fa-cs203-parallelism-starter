@@ -21,9 +21,9 @@ The content for each lab will be distributed via github classroom.
 So, to do the assignment of this course, you need:
 1. You'll need to log into https://escalab.org/datahub to run a jupyter notebook. 
 2. Tha asssignment from github classroom.  Find the link on the course 
-home page: https://www.escalab.org/classes/cse142L-2023sp/
+home page: https://www.escalab.org/classes/cs203-2023fa/
 
-## Connecting to cse142L jupyterhub 
+## Connecting to CS 203 jupyterhub 
 
 The first step is to navigate your browser to 
 https://escalab.org/datahub
@@ -39,7 +39,7 @@ click the big red "Stop My Server" button, if it's there.  If it's not, that's
 fine.  Then click "Logout" (upper right) to get back to the homepage and the
 big orange button.
 
-Now, click the big orange button and login with your `@UCSD.edu` email address.
+Now, click the big orange button and login with your `@UCR.edu` email address.
 After a progress bar, you'll end up at the Jupyter Notebook file browser.
 Looking at an empty directory (unless you've used the Datahub before, in which
 case your old files will be there).  In any case, you don't have a lab to do
@@ -60,20 +60,20 @@ and stop your server and then restart it.
 ## Cloning the Assignment Repo
 
 First, accept the assignement on Github Classroom.  It's available via the
-cse142L [home page](https://www.escalab.org/classes/cse142L-2023sp/).
+CS 203 [home page](https://www.escalab.org/classes/cs203-2023fa/).
 
 This will set you up with a copy of the starter repository.
 
 **Note**: Be sure to use the **`ssh`** method to checkout your repo rather than `http`.  Authentication over ssh is much simpler and it's what our tools assume.  If you try to use HTTP, you'll get something like:
 
 ```
-[htseng@datahub]$ git clone https://github.com/cse142LUCSD/2022fa-cse142L-welcome-hungweitseng.git
-Cloning into '2022fa-cse142L-welcome-hungweitseng'...
+[htseng@datahub]$ git clone https://github.com/CS203UCR/2023fa-cs203-welcome-hungweitseng.git
+Cloning into '2023fa-cs203-welcome-hungweitseng'...
 Username for 'https://github.com': hungweitseng
 Password for 'https://hungweitseng@github.com': 
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/cse142LUCSD/2023sp-cse142L-welcome-hungweitseng.git/'
+fatal: Authentication failed for 'https://github.com/CS 203UCR/2023fa-cs203-welcome-hungweitseng.git/'
 ```
 ![clone with ssh](images/clone-with-ssh.png)
 
