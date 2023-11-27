@@ -24,6 +24,7 @@ os.environ['PATH']=f"{os.environ['PATH']}:/usr/local/bin"
 
 pa_columns=["function", "seed", "size", "power","p1", "p2", "p3", "p4", "p5", "IC", "CPI", "CT", "ET", "L1_MPI", "TLB_MPI", "L1_cache_misses", "TLB_misses"]
 default_layers=["misses-compulsory-all", "misses-capacity-all", "hits-all"]
+hist_columns =["function", "threads", "size", "arg1", "arg2", "arg3", "IC", "CPI", "ET", "L1_dcache_misses", "L1_dcache_miss_rate"]
 
 pandas.set_option('display.max_rows', 130)
 
